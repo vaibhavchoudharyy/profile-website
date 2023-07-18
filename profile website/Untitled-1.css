@@ -1,0 +1,159 @@
+@font-face {
+    font-family:medino ;
+    src: url(MedinoRegular.otf);
+}
+@font-face {
+    font-family:old ;
+    src: url(OldMoneyV1a.otf);
+}
+@font-face {
+    font-family:v ;
+    src: url(VIVITA-Regular-BF63e465256315f.otf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:v;
+}
+
+body{
+    background-color: #890116;
+    min-height: 100vh;
+    
+    
+   
+/*151f74*/
+}
+
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 30px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 1 ;
+
+}
+
+.logo{
+    font-size:2em ;
+    color:  #e9e1cc;
+    font-family: v;
+    float: left;
+
+}
+
+
+
+nav{
+    color:#e9e1cc;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: -1;
+    padding: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 30px;
+    list-style: none;
+    z-index: -1;
+    
+}
+
+nav ul li a{
+    color:#e9e1cc;
+    padding:6px 15px;
+    border-radius: 100px;
+    justify-content: space-between;
+    margin:0% 10px;
+    font-weight: 600;
+    font-family: v;
+}
+
+nav ul li a:hover{
+    background: #e9e1cc;
+    color: #890116;
+   
+}
+
+.active{
+    background: #e9e1cc;
+    color: #890116;
+    z-index: 1;
+}
+ 
+.parallax{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    z-index: -2;
+
+}
+
+#text{
+    position:absolute;
+    font-size: 5em;
+    color: #e9e1cc;
+    font-family: v;
+    position: fixed;
+}
+
+.second{
+    background-color: #e9e1cc;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    z-index: 2;
+    padding:1px;
+    transition: 0.5sec;
+}
+
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+
+  .third{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    z-index: -2;
+  }
+
+.fourth{
+    background-color: #e9e1cc;
+  height:60vh;
+ z-index: 2;
+ height: 100vh;
+ padding:1px;
+}
+#contact{
+    position:absolute;
+    font-size: 5em;
+    color: #890116;
+    font-family: v;
+    position: fixed;
+    z-index: 2;
+}
